@@ -1,0 +1,63 @@
+/*$
+@name Canvas Dark Theme
+@author Ohlin Arellano
+@version 1.0.0
+@description A dark theme to shield your eyes from the Canvas rays.
+*/
+
+.event-details::after,.Grouping-styles__title::after{
+    display:none;
+}
+
+.ic-app,.ic-Dashboard-header__layout,.PlannerHeader-styles__root,.Day-styles__root,#breadcrumbs,#account-logo:hover,html,.summary tbody *,.header-bar{
+    background-color:#000!important;
+}
+
+.list-view a.active,h4,.btn,#pairing-code button span,.theme-li a,.plugin-li a,.ic-app-footer a,.PlannerEmptyState-styles__subtitle,.Button,.ToDoSidebarItem__Icon,#account-logo,#breadcrumbs ul li a span,.context,label[for=course_select_menu] span,.context,label[for=assignment_sort_order_select_menu] span{
+    color:#ccc!important;
+}
+
+body,#DashboardOptionsMenu_Container span button,.PlannerHeader-styles__root *,.Day-styles__root *,.PlannerEmptyState-styles__title{
+    color:#fff;
+}
+#DashboardOptionsMenu_Container span button:hover,#account-logo:hover,.btn:hover,.Button:hover{
+    color:#008ee1!important
+}
+
+.ic-app-nav-toggle-and-crumbs,#pairing-code button span,.course-list-table-row td,body.home .header-bar,.ic-Dashboard-header__layout,.todo-list-header,.h2,.ic-app-footer,.flashalert-message,#planner-today-btn,.PlannerItem-styles__root,.Day-styles__root *,.summary * {
+    border-color:#333!important;
+}
+
+.list-view a.active {
+    border-color:#aaa;
+}
+
+.btn,#planner-today-btn,.Grouping-styles__title,.Button,body.home .header-bar,.image-collaborations-container,#pairing-code button span{
+    background-color:#222!important;
+}
+
+.ic-DashboardCard,.ic-DashboardCard__header_content,.course-list-unpublished-course-row,.course-list-unpublished-course-row:hover{
+    background-color:#111!important;
+}
+
+.theme-ul,.plugin-ul,.btn,.Button,h2,#grades_summary *,.ic-Table thead tr th,.header-bar {
+    border-color:#333!important;
+}
+
+.theme-li,.plugin-li {
+    border-color:#333!important;
+    border-left:4px solid #95040b!important;
+}
+
+
+.theme-li:hover,.plugin-li:hover,.course-list-table .course-list-table-row:hover,.ic-Table.ic-Table--hover-row tbody tr:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-neutral:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-success:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-alert:hover, .ic-Table.ic-Table--hover-row tbody tr.ic-Table__row--bg-danger:hover{
+    background-color:#001b33!important;
+}
+
+.theme-li.enabled,.plugin-li.enabled {
+    border-left:4px solid #008011!important;
+}
+
+.ic-DashboardCard__header-button {
+    background-color: transparent!important;
+}
