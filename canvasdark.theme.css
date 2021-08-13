@@ -9,22 +9,22 @@
     display:none;
 }
 
-.ic-app,.ic-Dashboard-header__layout,.PlannerHeader-styles__root,.Day-styles__root,#breadcrumbs,#account-logo:hover,html,.summary tbody *,.header-bar{
+.ic-app,.ic-Dashboard-header__layout,.item-group-condensed .ig-row,.feature-flag-wrapper table *,.item-group-container,.module-sequence-footer-content,.PlannerHeader-styles__root,.Day-styles__root,#breadcrumbs,#account-logo:hover,html,.summary tbody *,.header-bar{
     background-color:#000!important;
 }
 
-.list-view a.active,h4,.btn,#pairing-code button span,.theme-li a,.plugin-li a,.ic-app-footer a,.PlannerEmptyState-styles__subtitle,.Button,.ToDoSidebarItem__Icon,#account-logo,#breadcrumbs ul li a span,.context,label[for=course_select_menu] span,.context,label[for=assignment_sort_order_select_menu] span{
+.list-view a.active,.context_module_item.context_module_sub_header>.ig-row,h4,.btn,#pairing-code button span,.theme-li a,.plugin-li a,.ic-app-footer a,.PlannerEmptyState-styles__subtitle,.Button,.ToDoSidebarItem__Icon,#account-logo,#breadcrumbs ul li a span,.context,label[for=course_select_menu] span,.context,label[for=assignment_sort_order_select_menu] span{
     color:#ccc!important;
 }
 
-body,#DashboardOptionsMenu_Container span button,.PlannerHeader-styles__root *,.Day-styles__root *,.PlannerEmptyState-styles__title{
-    color:#fff;
+body,#DashboardOptionsMenu_Container span button,.esvoZ_drOs[name=IconArrowOpenDown],.esvoZ_drOs[name=IconArrowOpenEnd],.fwfoD_fsuY,.MlJlv_ebWM,.MlJlv_doNn,.ig-list .ig-row a.ig-title,.item-group-condensed .ig-row,.item-group-condensed .ig-header *,input[type=text],textarea,.PlannerHeader-styles__root *,.Day-styles__root *,.PlannerEmptyState-styles__title{
+    color:#fff!important;
 }
 #DashboardOptionsMenu_Container span button:hover,#account-logo:hover,.btn:hover,.Button:hover{
     color:#008ee1!important
 }
 
-.ic-app-nav-toggle-and-crumbs,#pairing-code button span,.course-list-table-row td,body.home .header-bar,.ic-Dashboard-header__layout,.todo-list-header,.h2,.ic-app-footer,.flashalert-message,#planner-today-btn,.PlannerItem-styles__root,.Day-styles__root *,.summary * {
+.ic-app-nav-toggle-and-crumbs,.mini_month *,.context_module *,#assignment_show .student-assignment-overview,.module-sequence-footer-content,.rubric_container .rubric_title,.rubric_container thead th,table *,input[type=text],textarea,.form-actions,#pairing-code button span,.course-list-table-row td,body.home .header-bar,.ic-Dashboard-header__layout,.todo-list-header,.h2,.ic-app-footer,.flashalert-message,#planner-today-btn,.PlannerItem-styles__root,.Day-styles__root *,.summary * {
     border-color:#333!important;
 }
 
@@ -32,11 +32,11 @@ body,#DashboardOptionsMenu_Container span button,.PlannerHeader-styles__root *,.
     border-color:#aaa;
 }
 
-.btn,#planner-today-btn,.Grouping-styles__title,.Button,body.home .header-bar,.image-collaborations-container,#pairing-code button span{
+.btn,.h1.page-title,.item-group-condensed .ig-header, h2.course-title, h2.page-title,#planner-today-btn,input[type=text],.rubric_container .rubric_title,.rubric_container thead th,textarea,.Grouping-styles__title,.Button,body.home .header-bar,.image-collaborations-container,#pairing-code button span{
     background-color:#222!important;
 }
 
-.ic-DashboardCard,.ic-DashboardCard__header_content,.course-list-unpublished-course-row,.course-list-unpublished-course-row:hover{
+.ic-DashboardCard,.context_module_item.context_module_sub_header>.ig-row,.ic-DashboardCard__header_content,.course-list-unpublished-course-row,.course-list-unpublished-course-row:hover{
     background-color:#111!important;
 }
 
